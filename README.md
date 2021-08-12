@@ -59,7 +59,12 @@ The above query puts the database in single user mode. After that run the query 
 
 With Rollback Immediate option, will rollback all incomplete transactions and closes the connection to the database.
 
-By default databases are in multi user mode, so, if other users are connected, you need to put the database in single user mode and the drop the database.
+By default databases are in multi user mode, so, if other users are connected, you need to put the database in single user mode and then drop the database.
 
 
 **Note: System databases cannot be dropped.**
+There are 4 system databases. They are:
+1. Master
+2. Model
+3. msdb
+4. tempdb 
