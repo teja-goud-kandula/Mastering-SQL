@@ -11,3 +11,17 @@ To Create the database using a query:
 ```
 Create database DatabaseName
 ```
+
+Whether, you create a database graphically using the designer or, using a query, the following 2 files get generated:
+1. .MDF file - Data file (Contains actual data)
+2. .LDF file - Transactional Log file (Used to recover the database)
+
+To alter the database once it's created:
+```
+Alter database DatabaseName Modify Name = NewDatabaseName
+```
+
+Alternatively, you can also use system stored procedure
+```
+Execute sp_renameDB 'OldDatabaseName','NewDatabaseName'
+```
