@@ -63,7 +63,7 @@ By default databases are in multi user mode, so, if other users are connected, y
 
 
 **Note: System databases cannot be dropped.**
-There are 4 system databases. They are:
+There are 5 system databases. They are:
 1. Master Database -> Records all the system-level information for an instance of SQL Server.
 2. Model Database -> Is used as the template for all databases created on the instance of SQL Server. Modifications made to the model database, such as database size, collation, recovery model, and other database options, are applied to any databases created afterward.
 3. msdb Database -> Is used by SQL Server Agent for scheduling alerts and jobs.
