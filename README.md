@@ -1,2 +1,4 @@
 # Mastering-SQL
-## Teja 
+##
+
+This repo is built one step at a time and helps one Master SQL. 
