@@ -16,6 +16,10 @@ Whether, you create a database graphically using the designer or, using a query,
 1. .MDF file - Data file (Contains actual data)
 2. .LDF file - Transactional Log file (Used to recover the database)
 
+To find these 2 files, go to the object explorer, right click on the database, properties > Files tab.
+There you can see two files, under Database files:
+That path provides the location for the .MDF and .LDF files 
+
 To alter the database once it's created:
 ```
 Alter database DatabaseName Modify Name = NewDatabaseName
