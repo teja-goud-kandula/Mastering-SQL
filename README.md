@@ -41,3 +41,13 @@ You can't drop a database, if it is in currently in use. You get an error :
 ```
 Cannot drop database "DatabaseName" because it is currently in use.
 ```
+
+So, if other users are connected, you need to put the database in single user mode and the drop the database.
+Query to do that:
+```
+Alter database DatabaseName Set SINGLE_USER With Rollback Immediate
+```
+
+With Rollback Immediate option, will rollback all incomplete transactions and closes the connection to the database.
+
+**Note: System databases cannot be dropped.**
