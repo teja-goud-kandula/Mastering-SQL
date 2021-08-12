@@ -37,17 +37,29 @@ Drop Database DatabaseThatYouWantToDrop
 
 Dropping a database, deletes the LDF and MDF files.
 
+## How to drop a database that is in use?
+
 You can't drop a database, if it is in currently in use. You get an error :
 ```
 Cannot drop database "DatabaseName" because it is currently in use.
 ```
 
-So, if other users are connected, you need to put the database in single user mode and the drop the database.
-Query to do that:
+If other users are connected, you need to put the database in single user mode and then drop the database. The same can be achieved in 2 ways:
+1. Using GUI
+2. Using query
+
+Using GUI > Object explorer > Right click on the database > Delete > In the delete object window > Check Close existing connections > Click OK
+
+Using query >
+
 ```
 Alter database DatabaseName Set SINGLE_USER With Rollback Immediate
 ```
+The above query puts the database in single user mode. After that run the query to drop the database.
 
 With Rollback Immediate option, will rollback all incomplete transactions and closes the connection to the database.
+
+By default databases are in multi user mode, so, if other users are connected, you need to put the database in single user mode and the drop the database.
+
 
 **Note: System databases cannot be dropped.**
