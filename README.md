@@ -1,1 +1,1 @@
-# Mastering-SQL-SQL-Server
+# Mastering-SQL
