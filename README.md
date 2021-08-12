@@ -18,7 +18,7 @@ Whether, you create a database graphically using the designer or, using a query,
 
 To find these 2 files, go to the object explorer, right click on the database, properties > Files tab.
 There you can see two files, under Database files:
-That path provides the location for the .MDF and .LDF files 
+That path provides the location for the .MDF and .LDF files
 
 To alter the database once it's created:
 ```
@@ -28,4 +28,16 @@ Alter database DatabaseName Modify Name = NewDatabaseName
 Alternatively, you can also use system stored procedure
 ```
 Execute sp_renameDB 'OldDatabaseName','NewDatabaseName'
+```
+
+To delete or Drop a database
+```
+Drop Database DatabaseThatYouWantToDrop
+```
+
+Dropping a database, deletes the LDF and MDF files.
+
+You can't drop a database, if it is in currently in use. You get an error :
+```
+Cannot drop database "DatabaseName" because it is currently in use.
 ```
