@@ -131,9 +131,14 @@ from
 COALESCE function returns the first Non NULL value.
 Ex :
 ```
-Select COALESCE(FirstName, MiddleName, LastName) from Employee;
+Select COALESCE(FirstName, MiddleName, LastName) as Name from Employee;
 ```
 The above query returns:
 *  FirstName if FirstName is NOT NULL
 *  MiddleName if FirstName is NULL and MiddleName is NOT NULL
-*  LastName if both FirstName and MiddleName are NULL and LastName is NOT NULL 
+*  LastName if both FirstName and MiddleName are NULL and LastName is NOT NULL
+
+If all the above 3 values are NULL then it will throw an error like this:
+```
+At least one of the arguments to COALESCE must be an expression that is not the NULL constant.
+```
