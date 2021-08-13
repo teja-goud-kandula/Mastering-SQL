@@ -46,4 +46,4 @@ select STRING_AGG(city,',') as CitiesList from CountryCities
 select country, STRING_AGG(city,'-') as CitiesList from CountryCities group by country
 ```
 
-![String Aggregate Usecase](../Images/StringAggregateExample2.PNG)
+![String Aggregate Usecase](../Images/StringAggregateExample2.png)
