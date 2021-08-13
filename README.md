@@ -3,6 +3,7 @@
 
 This repo is built one step at a time and helps one Master SQL.
 
+# Creating altering and dropping a database
 A SQL Server database can be created, altered and dropped in 2 ways.
 1. Graphically using SQL Server Management Studio(SSMS) or
 2. Using a query
@@ -69,3 +70,6 @@ There are 5 system databases. They are:
 3. msdb Database -> Is used by SQL Server Agent for scheduling alerts and jobs.
 4. tempdb Database -> Is a workspace for holding temporary objects or intermediate result sets.
 5. Resource Database -> Is a read-only database that contains system objects that are included with SQL Server. System objects are physically persisted in the Resource database, but they logically appear in the sys schema of every database.
+
+
+# Creating and working with tables
