@@ -12,7 +12,7 @@ values ('Sydney'), ('Melb'), ('Bris')
 ```
 
 Query to get the string Aggregate:
-![Data for the String Aggregate table](../Images/StringAggregateData.PNG)
+![Data for the String Aggregate table](../Images/StringAggregateData.png)
 
 ```
 select  STRING_AGG(str1, ', ') WITHIN GROUP (order by str1)
