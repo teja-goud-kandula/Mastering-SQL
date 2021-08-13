@@ -73,3 +73,57 @@ There are 5 system databases. They are:
 
 
 # Creating and working with tables
+
+
+
+
+
+
+# Different ways to replace NULLS in SQL Server
+Three ways to replace NULL values
+1. ISNULL() function
+2. CASE statement
+3. COALESCE() statement
+
+Code for the table :
+```
+
+create Table EmployeeManager
+(
+	Employee nvarchar(30),
+	Manager nvarchar(30)
+);
+
+Insert into EmployeeManager values
+('Mike','Todd'),
+('Rob','Mike'),
+('Todd',NULL),
+('Ben','Mike'),
+('Sam','Mike')
+
+```
+
+Using ISNULL()
+```
+select
+  Employee,
+  ISNULL(Manager, 'No Manager') as ManagerName
+from
+  EmployeeManager;
+```
+Using COALESCE
+```
+select
+  Employee,
+  COALESCE(Manager, 'No Manager') as ManagerName
+from
+  EmployeeManager;
+```
+Using CASE
+```
+select
+  Employee,
+  CASE WHEN Manager IS NULL THEN 'No Manager' ELSE Manager END as ManagerName
+from
+  EmployeeManager;
+```
