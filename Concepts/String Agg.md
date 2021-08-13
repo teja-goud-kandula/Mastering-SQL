@@ -18,4 +18,4 @@ select  STRING_AGG(str1, ', ') WITHIN GROUP (order by str1)
     from catTest
 ```
 
-![String Aggregate Ouput](http://url/to/img.png)
+![String Aggregate Ouput](../Images/StringAggregate.PNG)
