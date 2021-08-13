@@ -111,14 +111,6 @@ select
 from
   EmployeeManager;
 ```
-Using COALESCE
-```
-select
-  Employee,
-  COALESCE(Manager, 'No Manager') as ManagerName
-from
-  EmployeeManager;
-```
 Using CASE
 ```
 select
@@ -127,3 +119,21 @@ select
 from
   EmployeeManager;
 ```
+Using COALESCE
+```
+select
+  Employee,
+  COALESCE(Manager, 'No Manager') as ManagerName
+from
+  EmployeeManager;
+```
+## More about COALESCE function
+COALESCE function returns the first Non NULL value.
+Ex :
+```
+Select COALESCE(FirstName, MiddleName, LastName) from Employee;
+```
+The above query returns:
+*  FirstName if FirstName is NOT NULL
+*  MiddleName if FirstName is NULL and MiddleName is NOT NULL
+*  LastName if both FirstName and MiddleName are NULL and LastName is NOT NULL 
