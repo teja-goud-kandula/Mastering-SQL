@@ -145,6 +145,8 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 
 # Built in FUNCTIONS in SQL Server
 
+## Mathematical functions in SQL Server
+
 ## String functions in SQL Server
 * ASCII
 * CHAR
