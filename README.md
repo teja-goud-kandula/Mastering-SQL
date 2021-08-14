@@ -146,6 +146,37 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 # Built in FUNCTIONS in SQL Server
 
 ## String functions in SQL Server
+* ASCII
+* CHAR
+* CHARINDEX
+* CONCAT
+* CONCAT_WS
+* DIFFERENCE
+* FORMAT
+* LEFT
+* LEN
+* LOWER
+* LTRIM
+* NCHAR
+* PATINDEX
+* QUOTENAME
+* REPLACE
+* REPLICATE
+* REVERSE
+* RIGHT
+* RTRIM
+* SOUNDEX
+* SPACE
+* STR
+* STRING_AGG
+* STRING_ESCAPE
+* STRING_SPLIT
+* STUFF
+* SUBSTRING
+* TRANSLATE
+* TRIM
+* UNICODE
+* UPPER
 
 # Questions and answers
 
