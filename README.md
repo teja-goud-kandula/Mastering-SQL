@@ -156,7 +156,7 @@ O
 N
 E
 ```
-	Solution:
+->	Solution:
 ```
 Declare @str nvarchar(10) = 'CAPONE';
 Declare @i INT = 1;
