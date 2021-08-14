@@ -143,7 +143,9 @@ If all the above 3 values are NULL then it will throw an error like this:
 At least one of the arguments to COALESCE must be an expression that is not the NULL constant.
 ```
 
-# String functions in SQL Server
+# Built in FUNCTIONS in SQL Server
+
+## String functions in SQL Server
 
 # Questions and answers
 
