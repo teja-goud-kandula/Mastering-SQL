@@ -154,5 +154,16 @@ A
 P
 O
 N
-E 
+E
+```
+	Solution:
+```
+Declare @str nvarchar(10) = 'CAPONE';
+Declare @i INT = 1;
+
+WHILE @i <= LEN(@str)
+BEGIN
+	PRINT(SUBSTRING(@str,@i,1));
+	SET @i = @i + 1;
+END
 ```
