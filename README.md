@@ -151,6 +151,10 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * ASCII
    * ASCII stands for American Standard Code for Information Interchange. It serves as a character encoding standard for modern computers.
    *	ASCII is a 7-bit character set. Extended ASCII or High ASCII is an 8-bit character set that is not handled by the ASCII function.
+	 ### Syntax:
+	 ASCII ( character_expression )
+	 ### Return type :
+	 int
 	 SQL:
 	 ```
 	 SELECT ASCII('A')
