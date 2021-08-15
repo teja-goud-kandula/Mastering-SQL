@@ -19,7 +19,7 @@ select  STRING_AGG(str1, ', ') WITHIN GROUP (order by str1)
     from catTest
 ```
 
-![String Aggregate Ouput](../Images/StringAggregate.PNG)
+![String Aggregate Ouput](../../../Images/StringAggregate.PNG)
 
 A simple way to understand about String Agg is that it like any other aggregate functions but the aggregaration is applied over strings. Just like we use group by on numeric data, STRING_AGG can be applied on any data because the any data can be converted to string type and then aggregation can be applied on that.
 
@@ -46,4 +46,4 @@ select STRING_AGG(city,',') as CitiesList from CountryCities
 select country, STRING_AGG(city,'-') as CitiesList from CountryCities group by country
 ```
 
-![String Aggregate Usecase](../Images/StringAggregateExample2.png)
+![String Aggregate Usecase](../../../Images/StringAggregateExample2.png)
