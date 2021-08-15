@@ -190,7 +190,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 	 ```
 	From the above result, we can notice that for code point 195 is *Ã* and not *æ*. This is because the ASCII function is capable of reading the first 7-bit stream, but not the extra bit. The correct code point for *æ* can be found using the ```UNICODE``` function, which is capable or returning the correct code point.
 	SQL:
-	```
+	```SQL
 	SELECT UNICODE('æ') AS [Extended_ASCII], NCHAR(230) AS [CHARACTER];
 	```
 	Here is the result set.
