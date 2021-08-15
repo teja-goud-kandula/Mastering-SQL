@@ -222,7 +222,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * SOUNDEX
 * SPACE
 * STR
-* STRING_AGG
+* [STRING_AGG](/Concepts/Functions/StringFunctions/StringAgg.md)
 * STRING_ESCAPE
 * STRING_SPLIT
 * STUFF
