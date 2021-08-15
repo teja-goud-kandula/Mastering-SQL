@@ -9,7 +9,7 @@ A SQL Server database can be created, altered and dropped in 2 ways.
 2. Using a query
 
 To Create the database using a query:
-```
+```SQL
 Create database DatabaseName
 ```
 
@@ -22,17 +22,17 @@ There you can see two files, under Database files:
 That path provides the location for the .MDF and .LDF files
 
 To alter the database once it's created:
-```
+```SQL
 Alter database DatabaseName Modify Name = NewDatabaseName
 ```
 
 Alternatively, you can also use system stored procedure
-```
+```SQL
 Execute sp_renameDB 'OldDatabaseName','NewDatabaseName'
 ```
 
 To delete or Drop a database
-```
+```SQL
 Drop Database DatabaseThatYouWantToDrop
 ```
 
@@ -53,7 +53,7 @@ Using GUI > Object explorer > Right click on the database > Delete > In the dele
 
 Using query >
 
-```
+```SQL
 Alter database DatabaseName Set SINGLE_USER With Rollback Immediate
 ```
 The above query puts the database in single user mode. After that run the query to drop the database.
@@ -86,7 +86,7 @@ Three ways to replace NULL values
 3. COALESCE() statement
 
 Code for the table :
-```
+```SQL
 
 create Table EmployeeManager
 (
@@ -104,7 +104,7 @@ Insert into EmployeeManager values
 ```
 
 Using ISNULL()
-```
+```SQL
 select
   Employee,
   ISNULL(Manager, 'No Manager') as ManagerName
@@ -112,7 +112,7 @@ from
   EmployeeManager;
 ```
 Using CASE
-```
+```SQL
 select
   Employee,
   CASE WHEN Manager IS NULL THEN 'No Manager' ELSE Manager END as ManagerName
@@ -120,7 +120,7 @@ from
   EmployeeManager;
 ```
 Using COALESCE
-```
+```SQL
 select
   Employee,
   COALESCE(Manager, 'No Manager') as ManagerName
@@ -130,7 +130,7 @@ from
 ## More about COALESCE function
 COALESCE function returns the first Non NULL value.
 Ex :
-```
+```SQL
 Select COALESCE(FirstName, MiddleName, LastName) as Name from Employee;
 ```
 The above query returns:
@@ -157,7 +157,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 	 ### Return type :
 	 int
 	 SQL:
-	 ```
+	 ```SQL
 	 SELECT ASCII('A')
 	 ```
 	 Here is the result set:
@@ -169,7 +169,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 
 
 
-	 ```
+	 ```SQL
 	 SELECT ASCII('P') AS [ASCII], ASCII('æ') AS [Extended_ASCII];
 	 ```
 	 Output:
@@ -234,7 +234,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 
 # Questions and answers
 
-* Write an SQL query to dispaly the text ```CAPONE``` as :
+* Write an SQL query to display the text ```CAPONE``` as :
 ```
 C
 A
@@ -244,7 +244,7 @@ N
 E
 ```
 ->	Solution:
-```
+```SQL
 Declare @str nvarchar(10) = 'CAPONE';
 Declare @i INT = 1;
 
