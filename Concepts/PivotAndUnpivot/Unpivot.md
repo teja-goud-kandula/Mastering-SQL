@@ -38,6 +38,8 @@ UNPIVOT
 ) AS UnpivotExample
 ```
 
+Here the columns `SalesAgent` comes from the original source table, the columns `Country` and `SalesAmount` comes from the UNPIVOT block.
+
 Output:
 |SalesAgent|	Country|	SalesAmount|
 |----------|---------|-------------|
