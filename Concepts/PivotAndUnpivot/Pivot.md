@@ -2,6 +2,12 @@
 
 Pivot is a sql server operator that can be used to turn unique values from one column, into multiple columns in the output, there by effectively rotating a table
 
+-> Rotate rows to columns
+
+When working with **PIVOT** one must need two columns:
+1. pivot_column
+2. value_column
+
 Syntax of the Pivot :
 ```SQL
 SELECT <non-pivoted column>,  
