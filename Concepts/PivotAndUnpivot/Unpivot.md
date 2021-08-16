@@ -19,12 +19,12 @@ Go
 ```
 
 The data in the table:
-```
+
 |SalesAgent|	India|	US|	UK|
 |----------|-------|----|---|
 |David|	960|	520|	360|
 |John|	970|	540|	800|
-```
+
 
 Write a query to convert rows to columns?
 
