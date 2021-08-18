@@ -18,7 +18,7 @@ END;
 
 First the select block inside the `IF EXISTS` is executed. If there are one or more records returned from the select block of code, then it means it is `TRUE`. Then the code inside the `BEGIN` block gets executed.
 
-Usage of *IF EXISTS*:
+Usage of **IF EXISTS**:
 Drop a database only if it exists:
 
 ```SQL
