@@ -150,7 +150,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 
 # Loops in SQL Server
 
-* [WHILE](/Concepts/Loops/While.md)
+* [WHILE](/Concepts/ControlFlow/While.md)
 
 # Aggregate Functions in SQL Server
 * AVG
