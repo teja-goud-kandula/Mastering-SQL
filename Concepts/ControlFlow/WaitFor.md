@@ -9,7 +9,7 @@ WAITFOR DELAY '00:01'
 WAITFOR DELAY '00:00:01'
 ```
 
-Wait for One Second 
+
 ![Wait For One Sec](../../Images/WaitForDelayOneSec.PNG)
 
 Wait for One Minute
