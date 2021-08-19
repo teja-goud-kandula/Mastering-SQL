@@ -143,10 +143,22 @@ If all the above 3 values are NULL then it will throw an error like this:
 At least one of the arguments to COALESCE must be an expression that is not the NULL constant.
 ```
 # Control Flow in SQL Server
-C:\Users\rocks\Documents\GitHub\Mastering-SQL\Concepts\ControlFlow
+
 * [IF EXISTS](/Concepts/ControlFlow/IfExists.md)
 * [IF](/Concepts/ControlFlow/If.md)
 * [IF ELSE](/Concepts/ControlFlow/IfElse.md)
+
+# Loops in SQL Server
+
+* [WHILE](/Concepts/Loops/While.md)
+
+# Aggregate Functions in SQL Server
+* AVG
+* MIN
+* MAX
+* SUM
+* COUNT
+
 # Built in FUNCTIONS in SQL Server
 
 ## Mathematical functions in SQL Server
