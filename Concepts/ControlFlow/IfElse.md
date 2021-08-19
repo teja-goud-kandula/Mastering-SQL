@@ -12,6 +12,8 @@ ELSE
   END
 ```
 
+If the `Boolean_expression` is `TRUE` then the code inside the `BEGIN` immediately after the `IF` is executed else the code in the `BEGIN` after the `ELSE` statement is executed.
+
 Example :
 ```SQL
 Declare @i INT ;
