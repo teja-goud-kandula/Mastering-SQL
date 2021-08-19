@@ -13,7 +13,7 @@ Example:
 Declare @i INT ;
 Set @i = 1;
 
-while @i <= 5
+while (@i <= 5)
 	BEGIN
 		print('The value of i is: '+ convert(Varchar,@i))
 		set @i = @i + 1
