@@ -144,12 +144,13 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 ```
 # Control Flow in SQL Server
 
+* [BEGIN...END](/Concepts/ControlFlow/BEGIN...END.md)
+* [BREAK](/Concepts/ControlFlow/BREAK.md)
 * [IF EXISTS](/Concepts/ControlFlow/IfExists.md)
 * [IF](/Concepts/ControlFlow/If.md)
 * [IF ELSE](/Concepts/ControlFlow/IfElse.md)
 * [WHILE](/Concepts/ControlFlow/While.md)
 * [WAITFOR](/Concepts/ControlFlow/WaitFor.md)
-* [BEGIN...END](/Concepts/ControlFlow/BEGIN...END.md)
 
 
 # System variables
