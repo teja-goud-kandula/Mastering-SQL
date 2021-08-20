@@ -146,6 +146,8 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 
 * [BEGIN...END](/Concepts/ControlFlow/BEGIN...END.md)
 * [BREAK](/Concepts/ControlFlow/BREAK.md)
+* [CONTINUE](/Concepts/ControlFlow/CONTINUE.md)
+
 * [IF EXISTS](/Concepts/ControlFlow/IfExists.md)
 * [IF](/Concepts/ControlFlow/If.md)
 * [IF ELSE](/Concepts/ControlFlow/IfElse.md)
