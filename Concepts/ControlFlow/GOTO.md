@@ -8,7 +8,7 @@ Alter the execution:
 GOTO label
 ```
 
-GOTO statements can't be used beyond `GO`
+
 
 Usage Example:
 ```SQL
@@ -72,3 +72,5 @@ common bit
 3
 finished 4
 ```
+
+GOTO statements can't be used beyond `GO`
