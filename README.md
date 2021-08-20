@@ -151,6 +151,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * [END](/Concepts/ControlFlow/End.md)
 * [GOTO](/Concepts/ControlFlow/GOTO.md)
 * [RETURN](/Concepts/ControlFlow/RETURN.md)
+* [THROW](/Concepts/ControlFlow/THROW.md)
 
 * [IF EXISTS](/Concepts/ControlFlow/IfExists.md)
 * [IF](/Concepts/ControlFlow/If.md)
