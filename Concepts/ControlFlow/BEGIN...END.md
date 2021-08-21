@@ -9,10 +9,10 @@ END
 
 The `BEGIN...END` statement is used to define a statement block. A statement block consists of a set of SQL statements that execute together. A statement block is also known as a batch.
 
-As an analogy `BEGIN` and `END` is equivalent to the '{' and '}' respectively. Whenever there is more one line of code to be written after an `IF`,`ELSE`,`WHILE` or after any control flow statements we need to use an `BEGIN` and `END`.
+As an analogy `BEGIN` and `END` is equivalent to the `{` and `}` respectively. Whenever there is more one line of code to be written after an `IF`,`ELSE`,`WHILE` or after any control flow statements we need to use an `BEGIN` and `END`.
 
 Example:
-```C
+```cpp
 --While loop in C family
 while condition
 {
