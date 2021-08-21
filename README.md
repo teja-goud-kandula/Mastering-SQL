@@ -152,17 +152,15 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * [GOTO](/Concepts/ControlFlow/GOTO.md)
 * [RETURN](/Concepts/ControlFlow/RETURN.md)
 * [THROW](/Concepts/ControlFlow/THROW.md)
-
+* [TRY...CATCH](/Concepts/ControlFlow/TRY...CATCH.md)
 * [IF EXISTS](/Concepts/ControlFlow/IfExists.md)
 * [IF](/Concepts/ControlFlow/If.md)
-
-* [WHILE](/Concepts/ControlFlow/While.md)
 * [WAITFOR](/Concepts/ControlFlow/WaitFor.md)
-
+* [WHILE](/Concepts/ControlFlow/While.md)
 
 # System variables
 
-* [@@ROWCOUNT](/Concepts/)
+* [@@ROWCOUNT](/Concepts/SystemVariables/RowCount.md)
 
 # Aggregate Functions in SQL Server
 * AVG
@@ -176,58 +174,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 ## Mathematical functions in SQL Server
 
 ## String functions in SQL Server
-* ASCII
-   * ASCII stands for American Standard Code for Information Interchange. It serves as a character encoding standard for modern computers.
-   *	ASCII is a 7-bit character set. Extended ASCII or High ASCII is an 8-bit character set that is not handled by the ASCII function.
-	 ### Syntax:
-	 ASCII ( character_expression )
-	 character_expression is an expression of type char or varchar.
-	 ### Return type :
-	 int
-	 SQL:
-	 ```SQL
-	 SELECT ASCII('A')
-	 ```
-	 Here is the result set:
-	 ```
-	 A         
-	-----------
-	65    
-	 ```
-
-
-
-	 ```SQL
-	 SELECT ASCII('P') AS [ASCII], ASCII('æ') AS [Extended_ASCII];
-	 ```
-	 Output:
-	 ```
-	 	ASCII       Extended_ASCII
-		----------- --------------
-		80          195
-	 ```
-	 To verify if the results above map to the correct character code point, use the output values with the CHAR or NCHAR function:
-	 ```
-	 SELECT NCHAR(80) AS [CHARACTER], NCHAR(195) AS [CHARACTER];
-	 ```
-	 Here is the result set:
-	 ```
-		CHARACTER CHARACTER
-		--------- ---------
-		P         Ã
-	 ```
-	From the above result, we can notice that for code point 195 is *Ã* and not *æ*. This is because the ASCII function is capable of reading the first 7-bit stream, but not the extra bit. The correct code point for *æ* can be found using the ```UNICODE``` function, which is capable or returning the correct code point.
-	SQL:
-	```SQL
-	SELECT UNICODE('æ') AS [Extended_ASCII], NCHAR(230) AS [CHARACTER];
-	```
-	Here is the result set.
-	```
-	Extended_ASCII CHARACTER
-	-------------- ---------
-	230            æ
-	```
-
+* [ASCII](/Concepts/Functions/StringFunctions/ASCII.md)
 * CHAR
 * CHARINDEX
 * CONCAT
@@ -261,24 +208,3 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * UPPER
 
 # Questions and answers
-
-* Write an SQL query to display the text ```CAPONE``` as :
-```
-C
-A
-P
-O
-N
-E
-```
-->	Solution:
-```SQL
-Declare @str nvarchar(10) = 'CAPONE';
-Declare @i INT = 1;
-
-WHILE @i <= LEN(@str)
-BEGIN
-	PRINT(SUBSTRING(@str,@i,1));
-	SET @i = @i + 1;
-END
-```

@@ -27,3 +27,27 @@ The value of i is: 3
 The value of i is: 4
 The value of i is: 5
 ```
+
+
+Usage:
+
+* Write an SQL query to display the text ```CAPONE``` as :
+```
+C
+A
+P
+O
+N
+E
+```
+->	Solution:
+```SQL
+Declare @str nvarchar(10) = 'CAPONE';
+Declare @i INT = 1;
+
+WHILE @i <= LEN(@str)
+BEGIN
+	PRINT(SUBSTRING(@str,@i,1));
+	SET @i = @i + 1;
+END
+```
