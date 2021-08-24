@@ -168,6 +168,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * MAX
 * SUM
 * COUNT
+* [STRING_AGG](/Concepts/Functions/StringFunctions/StringAgg.md)
 
 # Built in FUNCTIONS in SQL Server
 
@@ -197,7 +198,6 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * SOUNDEX
 * SPACE
 * STR
-* [STRING_AGG](/Concepts/Functions/StringFunctions/StringAgg.md)
 * STRING_ESCAPE
 * STRING_SPLIT
 * STUFF
