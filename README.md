@@ -207,6 +207,10 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * UNICODE
 * UPPER
 
+## Other functions in SQL Server
+* [HOST_Name()](/Concepts/Functions/OtherFunctions/HOST_Name.md)
+
+
 # Questions and answers
 
 ## Hacker Rank
