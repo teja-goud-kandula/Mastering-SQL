@@ -182,7 +182,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * [CONCAT_WS](/Concepts/Functions/StringFunctions/CONCAT_WS.md)
 * [DIFFERENCE](/Concepts/Functions/StringFunctions/DIFFERENCE.md)
 * [FORMAT](/Concepts/Functions/StringFunctions/FORMAT.md)
-* LEFT
+* [LEFT](/Concepts/Functions/StringFunctions/LEFT.md)
 * LEN
 * DATALENGTH
 * LOWER
