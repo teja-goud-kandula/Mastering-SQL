@@ -195,7 +195,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * REVERSE
 * RIGHT
 * RTRIM
-* SOUNDEX
+* [SOUNDEX](/Concepts/Functions/StringFunctions/SOUNDEX.md)
 * SPACE
 * STR
 * STRING_ESCAPE

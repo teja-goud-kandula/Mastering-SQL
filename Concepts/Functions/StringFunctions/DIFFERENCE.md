@@ -56,3 +56,21 @@ B432  G650  0
 
 (1 row affected)
 ```
+
+## Example 3:
+
+The below strings differ in consonants; therefore, the difference returned is 2.
+SQL:
+```SQL
+SELECT DIFFERENCE('Anothers', 'Brothers');  
+GO
+```
+
+Output:
+```
+
+-----------
+2
+
+(1 row affected)
+```

@@ -8,3 +8,19 @@ Syntax:
 ```SQL
 SOUNDEX ( character_expression )
 ```
+
+Example:
+SQL:
+```SQL
+-- Using SOUNDEX  
+SELECT SOUNDEX ('Smith'), SOUNDEX ('Smythe');
+```
+
+Output:
+```
+
+----- -----
+S530  S530
+
+(1 row affected)
+```
