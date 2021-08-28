@@ -185,7 +185,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * [LEFT](/Concepts/Functions/StringFunctions/LEFT.md)
 * [LEN](/Concepts/Functions/StringFunctions/LEN.md)
 * DATALENGTH
-* LOWER
+* [LOWER](/Concepts/Functions/StringFunctions/LOWER.md)
 * LTRIM
 * NCHAR
 * PATINDEX
