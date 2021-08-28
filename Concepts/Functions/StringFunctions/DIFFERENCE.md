@@ -1,6 +1,6 @@
 # DIFFERENCE
 
-This function returns an integer value measuring the difference between the [SOUNDEX()](/SOUNDEX.md) values of two different character expressions.
+This function returns an integer value measuring the difference between the [SOUNDEX()](/Concepts/Functions/StringFunctions//SOUNDEX.md) values of two different character expressions.
 
 Syntax:
 ```SQL
