@@ -178,7 +178,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * [ASCII](/Concepts/Functions/StringFunctions/ASCII.md)
 * [CHAR](/Concepts/Functions/StringFunctions/CHAR.md)
 * [CHARINDEX](/Concepts/Functions/StringFunctions/CHARINDEX.md)
-* CONCAT
+* [CONCAT](/Concepts/Functions/StringFunctions/CONCAT.md)
 * CONCAT_WS
 * DIFFERENCE
 * FORMAT
