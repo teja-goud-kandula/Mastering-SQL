@@ -176,8 +176,8 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 
 ## String functions in SQL Server
 * [ASCII](/Concepts/Functions/StringFunctions/ASCII.md)
-* CHAR
-* CHARINDEX
+* [CHAR](/Concepts/Functions/StringFunctions/CHAR.md)
+* [CHARINDEX](/Concepts/Functions/StringFunctions/CHARINDEX.md)
 * CONCAT
 * CONCAT_WS
 * DIFFERENCE
