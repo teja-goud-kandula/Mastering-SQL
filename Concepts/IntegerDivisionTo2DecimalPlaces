@@ -1,0 +1,5 @@
+Integer division to 2 decimal places. The INNER `CAST` is to convert `INT` to decimal, the OUTER `CAST` is to format the data such that it is into 2 decimal places.
+
+```SQL
+select CAST ( CAST(1 AS DECIMAL(10,2)) / CAST(2 AS DECIMAL(10,2)) as decimal(10,2))
+```
