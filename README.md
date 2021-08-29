@@ -187,7 +187,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * DATALENGTH
 * [LOWER](/Concepts/Functions/StringFunctions/LOWER.md)
 * [LTRIM](/Concepts/Functions/StringFunctions/LTRIM.md)
-* NCHAR
+* [NCHAR](/Concepts/Functions/StringFunctions/NCHAR.md)
 * PATINDEX
 * QUOTENAME
 * REPLACE
@@ -212,6 +212,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 
 
 # Questions and answers
+* [Difference between varchar and nvarchar in SQL Server?] (/Concepts/VarcharVsNvarchar.md)
 
 ## Hacker Rank
 * [The Report](/HackerRank/The Report/)
