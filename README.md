@@ -190,7 +190,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * [NCHAR](/Concepts/Functions/StringFunctions/NCHAR.md)
 * [PATINDEX](/Concepts/Functions/StringFunctions/PATINDEX.md)
 * [QUOTENAME](/Concepts/Functions/StringFunctions/QUOTENAME.md)
-* REPLACE
+* [REPLACE](/Concepts/Functions/StringFunctions/REPLACE.md)
 * REPLICATE
 * REVERSE
 * RIGHT
@@ -213,6 +213,8 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 
 # Questions and answers
 * [Difference between varchar and nvarchar in SQL Server?] (/Concepts/VarcharVsNvarchar.md)
+* [Find Number of Spaces in a String](/Concepts/Find Number of Spaces in a String.md)
+
 
 ## Hacker Rank
 * [The Report](/HackerRank/The Report/)
