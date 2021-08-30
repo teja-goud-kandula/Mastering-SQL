@@ -46,6 +46,7 @@ Three ways to replace NULL values
 # Built in FUNCTIONS in SQL Server
 
 ## Mathematical functions in SQL Server
+* [ABS](/Concepts/Functions/MathFunctions/ABS.md)
 
 ## String functions in SQL Server
 * [ASCII](/Concepts/Functions/StringFunctions/ASCII.md)
