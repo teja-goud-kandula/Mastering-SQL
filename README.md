@@ -188,7 +188,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * [LOWER](/Concepts/Functions/StringFunctions/LOWER.md)
 * [LTRIM](/Concepts/Functions/StringFunctions/LTRIM.md)
 * [NCHAR](/Concepts/Functions/StringFunctions/NCHAR.md)
-* PATINDEX
+* [PATINDEX](/Concepts/Functions/StringFunctions/PATINDEX.md)
 * QUOTENAME
 * REPLACE
 * REPLICATE
