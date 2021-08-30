@@ -192,7 +192,7 @@ At least one of the arguments to COALESCE must be an expression that is not the 
 * [QUOTENAME](/Concepts/Functions/StringFunctions/QUOTENAME.md)
 * [REPLACE](/Concepts/Functions/StringFunctions/REPLACE.md)
 * [REPLICATE](/Concepts/Functions/StringFunctions/REPLICATE.md)
-* REVERSE
+* [REVERSE](/Concepts/Functions/StringFunctions/REVERSE.md)
 * RIGHT
 * RTRIM
 * [SOUNDEX](/Concepts/Functions/StringFunctions/SOUNDEX.md)
