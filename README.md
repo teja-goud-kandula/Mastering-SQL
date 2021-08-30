@@ -40,7 +40,7 @@ Three ways to replace NULL values
 * MAX
 * SUM
 * COUNT
-* [STRING_AGG](/Concepts/Functions/StringFunctions/StringAgg.md)
+
 
 # Built in FUNCTIONS in SQL Server
 
@@ -70,6 +70,7 @@ Three ways to replace NULL values
 * [SOUNDEX](/Concepts/Functions/StringFunctions/SOUNDEX.md)
 * [SPACE](/Concepts/Functions/StringFunctions/SPACE.md)
 * [STR](/Concepts/Functions/StringFunctions/STR.md)
+* [STRING_AGG](/Concepts/Functions/StringFunctions/StringAgg.md)
 * STRING_ESCAPE
 * STRING_SPLIT
 * STUFF
@@ -77,7 +78,7 @@ Three ways to replace NULL values
 * TRANSLATE
 * TRIM
 * UNICODE
-* UPPER
+* [UPPER](/Concepts/Functions/StringFunctions/UPPER.md)
 
 ## Other functions in SQL Server
 * [HOST_Name()](/Concepts/Functions/OtherFunctions/HOST_Name.md)
