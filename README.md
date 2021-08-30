@@ -1,7 +1,8 @@
 # Mastering-SQL
-##
 
 This repo is built one step at a time and helps one Master SQL.
+
+## How to use this repository
 
 # SQL Server objects
 * [Database](/Concepts/Databases.md)
