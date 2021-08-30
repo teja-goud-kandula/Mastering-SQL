@@ -66,7 +66,7 @@ Three ways to replace NULL values
 * [REPLICATE](/Concepts/Functions/StringFunctions/REPLICATE.md)
 * [REVERSE](/Concepts/Functions/StringFunctions/REVERSE.md)
 * [RIGHT](/Concepts/Functions/StringFunctions/RIGHT.md)
-* RTRIM
+* [RTRIM](/Concepts/Functions/StringFunctions/RTRIM.md)
 * [SOUNDEX](/Concepts/Functions/StringFunctions/SOUNDEX.md)
 * SPACE
 * STR
