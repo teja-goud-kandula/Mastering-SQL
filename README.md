@@ -69,7 +69,7 @@ Three ways to replace NULL values
 * [RTRIM](/Concepts/Functions/StringFunctions/RTRIM.md)
 * [SOUNDEX](/Concepts/Functions/StringFunctions/SOUNDEX.md)
 * [SPACE](/Concepts/Functions/StringFunctions/SPACE.md)
-* STR
+* [STR](/Concepts/Functions/StringFunctions/STR.md)
 * STRING_ESCAPE
 * STRING_SPLIT
 * STUFF
