@@ -4,18 +4,18 @@ This repo is built one step at a time and helps one Master SQL.
 
 ## How to use this repository
 
-# SQL Server objects
+## SQL Server objects
 * [Database](/Concepts/Databases.md)
 * [Table](/Concepts/Tables.md)
 
 
-# [Different ways to replace NULLS in SQL Server](/Concepts/HandlingNULLS.md)
+## [Different ways to replace NULLS in SQL Server](/Concepts/HandlingNULLS.md)
 Three ways to replace NULL values
 1. ISNULL() function
 2. CASE statement
 3. COALESCE() statement
 
-# Control Flow in SQL Server
+## Control Flow in SQL Server
 
 * [BEGIN...END](/Concepts/ControlFlow/BEGIN...END.md)
 * [BREAK](/Concepts/ControlFlow/BREAK.md)
@@ -31,11 +31,11 @@ Three ways to replace NULL values
 * [WAITFOR](/Concepts/ControlFlow/WaitFor.md)
 * [WHILE](/Concepts/ControlFlow/While.md)
 
-# System variables
+## System variables
 
 * [@@ROWCOUNT](/Concepts/SystemVariables/RowCount.md)
 
-# Aggregate Functions in SQL Server
+## Aggregate Functions in SQL Server
 * AVG
 * MIN
 * MAX
