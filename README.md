@@ -8,11 +8,6 @@ This repo is built one step at a time and helps one Master SQL.
 * [Table](/Concepts/Tables.md)
 
 
-
-
-
-
-
 # [Different ways to replace NULLS in SQL Server](/Concepts/HandlingNULLS.md)
 Three ways to replace NULL values
 1. ISNULL() function
@@ -70,7 +65,7 @@ Three ways to replace NULL values
 * [REPLACE](/Concepts/Functions/StringFunctions/REPLACE.md)
 * [REPLICATE](/Concepts/Functions/StringFunctions/REPLICATE.md)
 * [REVERSE](/Concepts/Functions/StringFunctions/REVERSE.md)
-* RIGHT
+* [RIGHT](/Concepts/Functions/StringFunctions/RIGHT.md)
 * RTRIM
 * [SOUNDEX](/Concepts/Functions/StringFunctions/SOUNDEX.md)
 * SPACE
