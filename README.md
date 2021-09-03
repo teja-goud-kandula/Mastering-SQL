@@ -84,9 +84,12 @@ Three ways to replace NULL values
 
 ## CTE (Common Table Expression)
 
+### Non-Recursive CTE
 * Simple CTE
 * Multiple CTE
-* Recursive CTE 
+
+### Recursive CTE
+* Recursive CTE
 
 ## Other functions in SQL Server
 * [HOST_Name()](/Concepts/Functions/OtherFunctions/HOST_Name.md)
