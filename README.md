@@ -82,6 +82,12 @@ Three ways to replace NULL values
 * UNICODE
 * [UPPER](/Concepts/Functions/StringFunctions/UPPER.md)
 
+## CTE (Common Table Expression)
+
+* Simple CTE
+* Multiple CTE
+* Recursive CTE 
+
 ## Other functions in SQL Server
 * [HOST_Name()](/Concepts/Functions/OtherFunctions/HOST_Name.md)
 
