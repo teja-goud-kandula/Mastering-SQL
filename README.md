@@ -94,6 +94,15 @@ Three ways to replace NULL values
 ## Other functions in SQL Server
 * [HOST_Name()](/Concepts/Functions/OtherFunctions/HOST_Name.md)
 
+## ERROR FUNCTIONS in SQL Server
+
+* ERROR_NUMBER
+* ERROR_STATE
+* ERROR_SEVERITY
+* ERROR_LINE
+* ERROR_PROCEDURE
+* ERROR_MESSAGE
+
 
 # Questions and answers
 * [Difference between varchar and nvarchar in SQL Server?](/Concepts/VarcharVsNvarchar.md)
