@@ -73,8 +73,8 @@ Three ways to replace NULL values
 * [SPACE](/Concepts/Functions/StringFunctions/SPACE.md)
 * [STR](/Concepts/Functions/StringFunctions/STR.md)
 * [STRING_AGG](/Concepts/Functions/StringFunctions/StringAgg.md)
-* STRING_ESCAPE
-* STRING_SPLIT
+* [STRING_ESCAPE](/Concepts/Functions/StringFunctions/STRING_ESCAPE.md)
+* [STRING_SPLIT](/Concepts/Functions/StringFunctions/STRING_SPLIT.md)
 * STUFF
 * SUBSTRING
 * TRANSLATE
