@@ -48,6 +48,9 @@ Three ways to replace NULL values
 ## Mathematical functions in SQL Server
 * [ABS](/Concepts/Functions/MathFunctions/ABS.md)
 
+## Date functions in SQL Server
+* 
+
 ## String functions in SQL Server
 * [ASCII](/Concepts/Functions/StringFunctions/ASCII.md)
 * [CHAR](/Concepts/Functions/StringFunctions/CHAR.md)
@@ -75,7 +78,7 @@ Three ways to replace NULL values
 * [STRING_AGG](/Concepts/Functions/StringFunctions/StringAgg.md)
 * [STRING_ESCAPE](/Concepts/Functions/StringFunctions/STRING_ESCAPE.md)
 * [STRING_SPLIT](/Concepts/Functions/StringFunctions/STRING_SPLIT.md)
-* STUFF
+* [STUFF](/Concepts/Functions/StringFunctions/STUFF.md)
 * SUBSTRING
 * TRANSLATE
 * TRIM
