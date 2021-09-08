@@ -49,7 +49,7 @@ Three ways to replace NULL values
 * [ABS](/Concepts/Functions/MathFunctions/ABS.md)
 
 ## Date functions in SQL Server
-* 
+*
 
 ## String functions in SQL Server
 * [ASCII](/Concepts/Functions/StringFunctions/ASCII.md)
@@ -118,3 +118,7 @@ The concept required to solve this question is that the JOIN condition is to be 
 
 * [Placements](/HackerRank/Placements/)
 The concept required to solve this question is that we need to use the same table twice in order to `JOIN` in 2 instances. Table `Placements` is used as `P1` and `P2`, this will create 2 different instances of the same table.
+
+## Interview Questions
+
+* [Full Outer Join](/InterviewQuestions/FullOuterJoin.md)
