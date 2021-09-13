@@ -36,7 +36,7 @@ Three ways to replace NULL values
 * [@@ROWCOUNT](/Concepts/SystemVariables/RowCount.md)
 
 # Data types
-* [Date time data types](/Concepts/Datatypes/Datetypes.md)
+* [Date and Time data types](/Concepts/Datatypes/Datetypes.md)
 
 # Built in FUNCTIONS in SQL Server
 
