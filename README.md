@@ -35,13 +35,8 @@ Three ways to replace NULL values
 
 * [@@ROWCOUNT](/Concepts/SystemVariables/RowCount.md)
 
-## Aggregate Functions in SQL Server
-* AVG
-* MIN
-* MAX
-* SUM
-* COUNT
-
+# Data types
+* [Date time data types](/Concepts/Datatypes/Datetypes.md)
 
 # Built in FUNCTIONS in SQL Server
 
@@ -49,7 +44,7 @@ Three ways to replace NULL values
 
 * [ABS](/Concepts/Functions/MathFunctions/ABS.md)
 ## Date functions in SQL Server
-* Data types in date time(/Concepts/Datatypes/Datetypes.md)
+
 
 ## String functions in SQL Server
 * [ASCII](/Concepts/Functions/StringFunctions/ASCII.md)
@@ -84,6 +79,14 @@ Three ways to replace NULL values
 * TRIM
 * UNICODE
 * [UPPER](/Concepts/Functions/StringFunctions/UPPER.md)
+
+## Aggregate Functions in SQL Server
+* AVG
+* MIN
+* MAX
+* SUM
+* COUNT
+
 
 ## CTE (Common Table Expression)
 
