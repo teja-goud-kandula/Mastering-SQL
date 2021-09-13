@@ -46,10 +46,10 @@ Three ways to replace NULL values
 # Built in FUNCTIONS in SQL Server
 
 ## Mathematical functions in SQL Server
-* [ABS](/Concepts/Functions/MathFunctions/ABS.md)
 
+* [ABS](/Concepts/Functions/MathFunctions/ABS.md)
 ## Date functions in SQL Server
-*
+* Data types in date time(/Concepts/Datatypes/Datetypes.md)
 
 ## String functions in SQL Server
 * [ASCII](/Concepts/Functions/StringFunctions/ASCII.md)
