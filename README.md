@@ -120,10 +120,12 @@ Three ways to replace NULL values
 
 
 ## Hacker Rank
-* [The Report](/HackerRank/The Report/)
+* [The Report](/HackerRank/TheReport/)
+
 The concept required to solve this question is that the JOIN condition is to be applied using `BETWEEN` clause.
 
 * [Placements](/HackerRank/Placements/)
+
 The concept required to solve this question is that we need to use the same table twice in order to `JOIN` in 2 instances. Table `Placements` is used as `P1` and `P2`, this will create 2 different instances of the same table.
 
 ## Interview Questions
