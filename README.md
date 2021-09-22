@@ -116,6 +116,7 @@ Three ways to replace NULL values
 * [Difference between varchar and nvarchar in SQL Server?](/Concepts/VarcharVsNvarchar.md)
 * [Find Number of Spaces in a String](/Concepts/FindNumberOfSpacesInAString.md)
 * [Difference between JOIN and UNION](/Concepts/DiffB/wJoinAndUnion.md)
+* [UNION and UNION ALL in SQL Server]
 
 
 ## Hacker Rank
