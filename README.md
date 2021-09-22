@@ -109,6 +109,8 @@ Three ways to replace NULL values
 * ERROR_PROCEDURE
 * ERROR_MESSAGE
 
+## Intersect
+* [Intersect operator in SQL Server](/Concepts/Intersect.md)
 
 # Questions and answers
 * [Difference between varchar and nvarchar in SQL Server?](/Concepts/VarcharVsNvarchar.md)
